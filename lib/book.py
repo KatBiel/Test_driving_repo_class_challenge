@@ -8,4 +8,4 @@ class Book:
         return self.__dict__ == other.__dict__
     
     def __repr__(self):
-        return f"Book({self.id}, {self.title}, {self.author_name})"
+        return f"{self.id} - {self.title} - {self.author_name}"

@@ -18,4 +18,4 @@ def test_equality():
 ''' Test formatter'''
 def test_formatter():
     book = Book(1, 'Life of Pi', 'Yann Martel')
-    assert str(book) == "Book(1, Life of Pi, Yann Martel)"
+    assert str(book) == "1 - Life of Pi - Yann Martel"
