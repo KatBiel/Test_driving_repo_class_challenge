@@ -1,5 +1,4 @@
-from lib.database_connection import DatabaseConnection
-from lib.artist_repository import ArtistRepository
+from lib.database_book_store import DatabaseConnection
 
 
 # Connect to the database
